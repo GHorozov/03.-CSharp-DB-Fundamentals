@@ -1,0 +1,24 @@
+--SELECT c.Name AS [CountryName],
+--	   d.Name AS [DisributorName],
+--		DENSE_RANK() OVER(PARTITION BY c.Id ORDER BY i.Id DESC) AS rankIngrDesc
+--FROM Countries AS c
+--JOIN Distributors AS d ON d.CountryId = c.Id
+--JOIN Ingredients AS i ON i.DistributorId = d.Id
+--JOIN
+--(
+--SELECT [CountryId],
+--	   [DisributorId],
+--		DENSE_RANK() OVER(PARTITION BY [CountryId] ORDER BY IngredientCount DESC) AS rankIngrDesc
+--		FROM 
+--		( 
+--		SELECT c.Id AS [CountryId],
+--			   d.Id AS [DisributorId],
+--			   COUNT(i.Id) AS IngredientCount
+--		FROM Countries AS c
+--		JOIN Distributors AS d ON d.CountryId = c.Id
+--		JOIN Ingredients AS i ON i.DistributorId = d.Id
+--		group by c.Id,d.Id
+--		) as DisCOunt
+--) AS RankD ON  c.Id = RankD.CountryId
+--where rankIngrDesc = 1
+--ORDER BY c.Name,d.Name

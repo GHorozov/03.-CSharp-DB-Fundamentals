@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# SQL Server Management Studio Solution File, Format Version 14.00
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "01. Create Table Logs", "..\01. Create Table Logs\01. Create Table Logs.ssmssqlproj", "{5E9BDE90-7EF3-4765-8961-6BF050FCB176}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "02. Create Table Emails", "02. Create Table Emails\02. Create Table Emails.ssmssqlproj", "{FC8B15D1-991F-4235-8401-59B1BA24B342}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "03. Deposit Money", "03. Deposit Money\03. Deposit Money.ssmssqlproj", "{04F55AB1-6F55-407B-953F-66C182412CCF}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "04. Withdraw Money Procedure", "04. Withdraw Money Procedure\04. Withdraw Money Procedure.ssmssqlproj", "{DF82DFC3-BCC5-40B3-AAF8-E9451EB40307}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "05. Money Transfer", "05. Money Transfer\05. Money Transfer.ssmssqlproj", "{DF8587FF-385C-4AE1-9B5E-FB5C4F05F722}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "07. Massive Shopping", "07. Massive Shopping\07. Massive Shopping.ssmssqlproj", "{FE75FDF0-49CE-4C6C-BB8F-0BEA6B743F4A}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "08. Employees with Three Projects", "08. Employees with Three Projects\08. Employees with Three Projects.ssmssqlproj", "{D03A7181-13D6-484D-A0BB-5C164C01F08D}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "09. Delete Employees", "09. Delete Employees\09. Delete Employees.ssmssqlproj", "{CB5D7703-7059-41A0-828D-F33A9C7A1C47}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Default|Default = Default|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B26D23CD-6560-4C03-895F-1AD73530753C}.Default|Default.ActiveCfg = Default
+		{5E9BDE90-7EF3-4765-8961-6BF050FCB176}.Default|Default.ActiveCfg = Default
+		{FC8B15D1-991F-4235-8401-59B1BA24B342}.Default|Default.ActiveCfg = Default
+		{04F55AB1-6F55-407B-953F-66C182412CCF}.Default|Default.ActiveCfg = Default
+		{DF82DFC3-BCC5-40B3-AAF8-E9451EB40307}.Default|Default.ActiveCfg = Default
+		{DF8587FF-385C-4AE1-9B5E-FB5C4F05F722}.Default|Default.ActiveCfg = Default
+		{FE75FDF0-49CE-4C6C-BB8F-0BEA6B743F4A}.Default|Default.ActiveCfg = Default
+		{D03A7181-13D6-484D-A0BB-5C164C01F08D}.Default|Default.ActiveCfg = Default
+		{CB5D7703-7059-41A0-828D-F33A9C7A1C47}.Default|Default.ActiveCfg = Default
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,3 @@
+ALTER TABLE Users
+ADD CONSTRAINT Username
+UNIQUE (Username)

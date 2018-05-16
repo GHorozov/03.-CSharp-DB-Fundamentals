@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# SQL Server Management Studio Solution File, Format Version 14.00
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "01. DDL", "..\01. DDL\01. DDL.ssmssqlproj", "{3B130289-294E-486A-909B-FE42D196291C}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "02. Insert2", "02. Insert2\02. Insert2.ssmssqlproj", "{CBC21060-35DE-450F-9249-9F1671F6CE55}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Default|Default = Default|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1B98E21D-08C8-4617-8288-7BA5BA85320D}.Default|Default.ActiveCfg = Default
+		{3B130289-294E-486A-909B-FE42D196291C}.Default|Default.ActiveCfg = Default
+		{CBC21060-35DE-450F-9249-9F1671F6CE55}.Default|Default.ActiveCfg = Default
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

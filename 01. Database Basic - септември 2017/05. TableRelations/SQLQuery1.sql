@@ -1,0 +1,18 @@
+CREATE DATABASE TableRelations
+
+USE TableRelations
+
+CREATE TABLE Persons(
+	Id INT IDENTITY(1,1),
+	FirstName VARCHAR(50) NOT NULL,
+	Salary DECIMAL(10,2) NOT NULL,
+	PassportID INT NOT NULL,
+	CONSTRAINT PK_PersonId PRIMARY KEY (Id) 
+)
+
+CREATE TABLE Passports(
+	PassportId INT IDENTITY(100, 1),
+	PassportNumber VARCHAR(50) NOT NULL,
+	CONSTRAINT FK_PassportId FOREIGN KEY (PassportId) REFERENCES Persons(Id)
+)
+

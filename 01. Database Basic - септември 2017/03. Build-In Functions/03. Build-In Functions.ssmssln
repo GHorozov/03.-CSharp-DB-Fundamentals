@@ -1,0 +1,67 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# SQL Server Management Studio Solution File, Format Version 14.00
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "01. FindNamesOfAllEmployeesByFirstName", "..\01. FindNamesOfAllEmployeesByFirstName\01. FindNamesOfAllEmployeesByFirstName.ssmssqlproj", "{C161601E-7B14-4210-934D-6705B4B8872D}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "02. FindNamesOfAllEmployeesByLastName", "02. FindNamesOfAllEmployeesByLastName\02. FindNamesOfAllEmployeesByLastName.ssmssqlproj", "{4F2924E1-F493-4D37-978B-9C2E73DCE8B4}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "03. FindFirstNamesOfAllEmployess", "03. FindFirstNamesOfAllEmployess\03. FindFirstNamesOfAllEmployess.ssmssqlproj", "{C6EF2A0E-E57A-4955-B285-300C5705E11D}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "04. FindAllEmployeesExceptEngineers", "04. FindAllEmployeesExceptEngineers\04. FindAllEmployeesExceptEngineers.ssmssqlproj", "{5FA5DD89-6497-469A-92D6-4B208D2BBB40}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "05. FindTownsWithNameLength", "05. FindTownsWithNameLength\05. FindTownsWithNameLength.ssmssqlproj", "{0791E708-CFB3-41F8-B86D-0C209214A34C}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "06. FindTownsStartingWith", "06. FindTownsStartingWith\06. FindTownsStartingWith.ssmssqlproj", "{586179A9-B1A6-46FF-AEB9-8553EAACCC91}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "07. FindTownsNotStartingWith", "07. FindTownsNotStartingWith\07. FindTownsNotStartingWith.ssmssqlproj", "{2F6F5827-2A30-448E-8A17-5F042835E406}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "08. CreateViewEmployeesHiredAfter", "08. CreateViewEmployeesHiredAfter\08. CreateViewEmployeesHiredAfter.ssmssqlproj", "{3D437DF3-72DF-442F-8494-6F9F5CB80BB0}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "09. LengthOfLastName", "09. LengthOfLastName\09. LengthOfLastName.ssmssqlproj", "{D24CBC30-A3E1-48DC-8852-40413F90F389}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "10. CountriesHolding 'A'", "10. CountriesHolding 'A'\10. CountriesHolding 'A'.ssmssqlproj", "{4353C4B3-1D02-466E-83B9-35A7311E1890}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "11. MixOfPeakAndRiverNames", "11. MixOfPeakAndRiverNames\11. MixOfPeakAndRiverNames.ssmssqlproj", "{B61D4894-8E82-496D-9E58-EA7383369669}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "12. GamesFrom2011And2012Year", "12. GamesFrom2011And2012Year\12. GamesFrom2011And2012Year.ssmssqlproj", "{DF89199B-D16F-44AB-8FA7-3DDD7F9AB182}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "13. UserEmailProviders", "13. UserEmailProviders\13. UserEmailProviders.ssmssqlproj", "{BA1B2329-66B1-4BEE-86EA-2AC454CD2E83}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "14. GetUsersWithIPAddressLikePattern", "14. GetUsersWithIPAddressLikePattern\14. GetUsersWithIPAddressLikePattern.ssmssqlproj", "{0A98F91F-D4D4-4740-A38F-036E3047FFCF}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "15. ShowAllGamesWithDuration", "15. ShowAllGamesWithDuration\15. ShowAllGamesWithDuration.ssmssqlproj", "{6E897AC3-4D08-41B5-86F5-A43435DDA3AD}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "16. OrdersTable", "16. OrdersTable\16. OrdersTable.ssmssqlproj", "{2C1583AC-71B9-4F44-91BB-D08B92ACCF7F}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "17. PeopleTable", "17. PeopleTable\17. PeopleTable.ssmssqlproj", "{0AEFD399-D948-44BF-9EAF-F4894DE55E96}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Default|Default = Default|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C161601E-7B14-4210-934D-6705B4B8872D}.Default|Default.ActiveCfg = Default
+		{C62E74A5-A125-4763-84E2-FAB11F25CFC9}.Default|Default.ActiveCfg = Default
+		{4F2924E1-F493-4D37-978B-9C2E73DCE8B4}.Default|Default.ActiveCfg = Default
+		{C6EF2A0E-E57A-4955-B285-300C5705E11D}.Default|Default.ActiveCfg = Default
+		{5FA5DD89-6497-469A-92D6-4B208D2BBB40}.Default|Default.ActiveCfg = Default
+		{0791E708-CFB3-41F8-B86D-0C209214A34C}.Default|Default.ActiveCfg = Default
+		{586179A9-B1A6-46FF-AEB9-8553EAACCC91}.Default|Default.ActiveCfg = Default
+		{2F6F5827-2A30-448E-8A17-5F042835E406}.Default|Default.ActiveCfg = Default
+		{3D437DF3-72DF-442F-8494-6F9F5CB80BB0}.Default|Default.ActiveCfg = Default
+		{D24CBC30-A3E1-48DC-8852-40413F90F389}.Default|Default.ActiveCfg = Default
+		{4353C4B3-1D02-466E-83B9-35A7311E1890}.Default|Default.ActiveCfg = Default
+		{B61D4894-8E82-496D-9E58-EA7383369669}.Default|Default.ActiveCfg = Default
+		{DF89199B-D16F-44AB-8FA7-3DDD7F9AB182}.Default|Default.ActiveCfg = Default
+		{BA1B2329-66B1-4BEE-86EA-2AC454CD2E83}.Default|Default.ActiveCfg = Default
+		{0A98F91F-D4D4-4740-A38F-036E3047FFCF}.Default|Default.ActiveCfg = Default
+		{6E897AC3-4D08-41B5-86F5-A43435DDA3AD}.Default|Default.ActiveCfg = Default
+		{2C1583AC-71B9-4F44-91BB-D08B92ACCF7F}.Default|Default.ActiveCfg = Default
+		{0AEFD399-D948-44BF-9EAF-F4894DE55E96}.Default|Default.ActiveCfg = Default
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
